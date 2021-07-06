@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1259BC</color>
+    <color name="fondo">#2C2C29</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#7C7B7B</color>
+    <color name="orange">#FF9800</color>
+    <color name="red">#F43636</color>
+    <color name="celeste">#2196F3</color>
+    <color name="green">#5DD162</color>
+    <color name="turnoGray">#363632</color>
+
+
+
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentProfile"
+    android:background="@color/fondo"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp">
+
+    <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mi Perfil"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/tvNombreP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:id="@+id/tvEmailP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="email"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:id="@+id/bHistorial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Historial de Turnos"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:padding="15dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"/>
+        <Button
+            android:id="@+id/bHPedidos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Historial de Pedidos"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:padding="15dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"/>
+
+        <Button
+            android:id="@+id/buttonCerrarSesion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/cerrar_sesion"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:layout_marginTop="35dp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

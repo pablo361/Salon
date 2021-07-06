@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/fondo"
+        android:layout_height="wrap_content">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginStart="12dp"
+            android:columnCount="2"
+
+            tools:context=".producto.FragmentCategorias">
+
+
+            <!-- TODO: Update blank fragment layout -->
+            <ImageButton
+                android:id="@+id/bp1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/b_shampoo"/>
+            <ImageButton
+                android:id="@+id/bp3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="end"
+                android:background="@drawable/b_acondi"/>
+
+            <ImageButton
+                android:id="@+id/bp4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/b_aceite"/>
+
+            <ImageButton
+                android:id="@+id/bp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="end"
+                android:background="@drawable/b_mascara"/>
+            <ImageButton
+                android:id="@+id/bp5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/b_tintura"/>
+            <ImageButton
+                android:id="@+id/bp6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="end"
+                android:background="@drawable/b_spray"/>
+        </GridLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

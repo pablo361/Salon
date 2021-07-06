@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@color/fondo"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+
+
+
+    <ImageView
+        android:id="@+id/imageViewCarrito"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        tools:srcCompat="@drawable/ic_launcher_background" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp">
+        <TextView
+            android:id="@+id/textViewCarritoN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxEms="15"
+            android:text="XXXXXX XXXXXX XXXX XXXXX XXXXX X XX"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/textViewCarritoP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="$$$"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="match_parent"
+        android:layout_gravity="end">
+        
+
+    <ImageButton
+        android:id="@+id/borrarCarrito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_trashcan"
+        android:layout_alignParentEnd="true"
+
+        />
+    </RelativeLayout>
+
+
+</LinearLayout>
+

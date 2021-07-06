@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/fondo"
+    >
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/fondo"
+    android:paddingBottom="20dp"
+    tools:context=".producto.ActivityProductDetail">
+    <include layout="@layout/toolbarsalon"
+        android:id="@+id/include"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+
+
+        <ImageView
+            android:id="@+id/imageViewDP"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            tools:srcCompat="@tools:sample/avatars" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewProductoDetalleN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="@string/producto"
+            android:textSize="40sp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:id="@+id/textViewPrecioProductoP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Precio $$$$"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+        <Button
+            android:id="@+id/botonAgregarCarrito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agregar a Carrito"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:layout_marginTop="45dp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:onClick="agregarACarrito"/>
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

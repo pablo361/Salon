@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/botonTurnosNav"
+        android:icon="@drawable/turnos"
+        android:title="@string/turnos"/>
+    <item
+        android:id="@+id/botonProductosNav"
+        android:icon="@drawable/shop"
+        android:title="@string/menu_producto"/>
+    <item
+        android:id="@+id/botonPerfilNav"
+        android:icon="@drawable/profile"
+        android:title="@string/perfil"/>
+</menu>

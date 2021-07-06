@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/chip_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                app:selectionRequired="true"
+                app:singleSelection="true"
+                app:chipSpacingHorizontal="0dp"
+                app:checkedChip="@id/chip1"
+                >
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip1"
+                    app:chipCornerRadius="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/Theme.MaterialComponents.Light"
+                    style="@style/CustomChipChoice"
+                    app:chipStrokeColor="@color/colorPrimary"
+                    app:chipStrokeWidth="3dp"
+                    android:checkable="true"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:text="@string/resultado"
+                    android:textSize="12sp"
+                    android:textStyle="bold"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip2"
+                    app:chipCornerRadius="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/Theme.MaterialComponents.Light"
+                    style="@style/CustomChipChoice"
+                    app:chipStrokeColor="@color/colorPrimary"
+                    app:chipStrokeWidth="3dp"
+                    android:checkable="true"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:text="@string/productolc"
+                    android:textSize="12sp"
+                    android:textStyle="bold"/>
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip3"
+                    app:chipCornerRadius="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/Theme.MaterialComponents.Light"
+                    style="@style/CustomChipChoice"
+                    app:chipStrokeColor="@color/colorPrimary"
+                    app:chipStrokeWidth="3dp"
+                    android:checkable="true"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:text="Todos"
+                    android:textSize="12sp"
+                    android:textStyle="bold"/>
+            </com.google.android.material.chip.ChipGroup>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/fragmentInicioProducto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
+

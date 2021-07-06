@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Estilo</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="correo_electronico">Correo Electrónico</string>
+    <string name="menu_producto">Productos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="turnos">Turnos</string>
+    <string name="perfil">Perfil</string>
+    <string name="confirmacion_de_turno">Confirmacion de Turno</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="no_tenes_turnos_reservados">No tenés turnos reservados</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="cerrar_sesion">Cerrar Sesion</string>
+    <string name="producto">PRODUCTO</string>
+    <string name="gotocarrito">gotoCarrito</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="resultado">Resultado</string>
+    <string name="productolc">Producto</string>
+</resources>
