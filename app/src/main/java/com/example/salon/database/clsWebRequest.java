@@ -7,6 +7,7 @@ import com.example.salon.database.clsGlobal;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.RequestParams;
 import com.loopj.android.http.ResponseHandlerInterface;
+//Test
 
 public class clsWebRequest {
     public static AsyncHttpClient client;
